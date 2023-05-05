@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
                 state = 1; 
                 count++;
             }
-        }//
+        }
         printf("µ¥´ÊÊı: %d\n", count);
     }
     
