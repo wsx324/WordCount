@@ -14,12 +14,12 @@ int main(int argc, char *argv[]) {
     }
     
     int count = 0;
-    if (strcmp(argv[1], "-c") == 0) {
+    if (strcmp(argv[1], "-c") == 0) {//计算字符数 
         while (fgetc(fp) != EOF) {
             count++;
         }
         printf("字符数: %d\n", count);
-    } else if (strcmp(argv[1], "-w") == 0) {
+    } else if (strcmp(argv[1], "-w") == 0) {//计算单词数 
         int state = 0; 
         char c;
         while ((c = fgetc(fp)) != EOF) {
